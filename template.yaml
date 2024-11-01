@@ -20,6 +20,18 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+        description:
+          title: Description
+          type: string
+          description: Description of the component
+          ui:options:
+            rows: 5
+        owner:
+          title: Owner
+          type: string
+          description: Team owning the component
+          ui:options:
+            rows: 5
     - title: Choose a location
       required:
         - repoUrl
