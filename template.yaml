@@ -53,6 +53,8 @@ spec:
         url: ./template
         values:
           name: ${{ parameters.name }}
+          description: ${{ parameters.description }}
+          owner: ${{ parameters.owner }}
 
     - id: publish
       name: Publish
